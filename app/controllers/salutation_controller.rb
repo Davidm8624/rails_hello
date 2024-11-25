@@ -1,6 +1,5 @@
 class SalutationController < ApplicationController
-
-def hello
-  @message = "hello world!"
-end
+  def hello
+    @message = "hello world!"
+  end
 end
